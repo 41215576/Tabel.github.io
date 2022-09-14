@@ -1,0 +1,28 @@
+body {
+  background-color: black ;
+}
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+table,td {
+   border-collapse: collapse;
+   padding: 10px;
+   text-align: center;
+   font-family: Georgia ;
+   font-size: 20px;
+   margin: right ;
+   color: black ;
+   background-color: violet;
+   
+}
+tr,th {
+  background-color: blue;
+}
+tr, td:hover {
+  transition: all  .5s ease ;
+  background-color: lightskyblue;
+}
